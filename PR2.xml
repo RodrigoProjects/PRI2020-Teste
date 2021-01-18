@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TESTE_PRI2021</key>
+        <title>Teste 2021</title>
+        <bdate>Janeiro 2021</bdate>
+        <edate>Janeiro 2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="a83765">
+            <name>Rodrigo da Silva Pimentel</name>
+            <email>a83765@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p> TPC com objetivo de praticar o uso de <b>node.js</b> e realizar pedidos HTTP com <b>Axios</b>. Foi utlizado o <b>json-server</b> para a partir de um ficherio JSON criar um API REST.</p>
+    </abstract>
+    <deliverables>
+        <link url="./teste.txt">Resoluções escritas</link>
+    </deliverables>
+</pr>

@@ -1,0 +1,33 @@
+Ex1: 
+
+    1- 
+    -- Whole word replace
+    Find and replace:
+        Find :ref
+        Replace: "ref" 
+
+        Find: (:[ ]*)["]([a-zA-Z]*)\/([a-zA-Z]*)\/([a-zA-Z0-9]*)\/([0-9]*)\/([0-9]*)\/([0-9]*)["]
+        Replace : : "$2_$3_$4_$5_$6_$7"
+    
+        Find:"title": (".*"),?
+        Replace: "title": $1,
+
+        Find:"date": ([^"].*[^,])
+        Replace: "date": "$1"
+
+    3- 
+
+    mongo
+    use Teste2021
+    db.createCollection("casamentos")
+
+
+Ex2-
+
+    1-
+        3
+        174
+        5
+        0
+
+    
