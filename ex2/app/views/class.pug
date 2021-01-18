@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h5=dados.titulo
+    h5=dados.codigo
+    ul Descendência:
+        each val in dados.filhos
+            li= val.titulo
+
+    div
+        address
+            a(href="http://localhost:5999/") [Voltar]

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1 CLAV
+  h3 Processos nível #{level}
+  .cont
+    ul 
+      each cl in classes
+        li
+          a(href="http://localhost:5999/classes/" + cl.codigo)= cl.codigo
+
+          span= " - " + cl.titulo
+
+
