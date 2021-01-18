@@ -15,7 +15,7 @@
         </worker>
     </workteam>
     <abstract>
-        <p> TPC com objetivo de praticar o uso de <b>node.js</b> e realizar pedidos HTTP com <b>Axios</b>. Foi utlizado o <b>json-server</b> para a partir de um ficherio JSON criar um API REST.</p>
+        <p>Teste 2021</p>
     </abstract>
     <deliverables>
         <link url="./teste.txt">Resoluções escritas</link>
